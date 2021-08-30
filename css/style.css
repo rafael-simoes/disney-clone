@@ -306,7 +306,7 @@ body {
 
 .pre-btn,
 .nxt-btn {
-    position: relative;
+    position: absolute;
     top: 0;
     width: 5%;
     height: 100%;
