@@ -159,7 +159,7 @@ body {
     margin: auto;
     height: 10%;
     display: flex;
-    margin-bottom: 35%;
+    margin-bottom: 30%;
     justify-content: space-between;
 }
 
@@ -502,6 +502,7 @@ body {
         padding-left: 50px;
         text-transform: capitalize;
         margin-top: 80px;
+        font-size: 2.5rem;
     }
 
     .movie-des {
@@ -510,6 +511,7 @@ body {
         padding-left: 50px;
         margin-top: 30px;
         opacity: .8;
+        font-size: 1.2rem;
     }
 
     .video-card-container {
