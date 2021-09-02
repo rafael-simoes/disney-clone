@@ -39,9 +39,10 @@ const createSlide = () => {
 
 for (let i = 0; i < 3; i++) {
     createSlide();
+    console.log(slideIndex);
 }
 setInterval(() => {
-    createSlide()
+    createSlide();
 }, 3000);
 
 const videoCards = [...document.querySelectorAll('.video-card')];
