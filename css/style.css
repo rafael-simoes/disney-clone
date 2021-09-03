@@ -11,6 +11,8 @@ body {
     font-family: roboto, sans-serif;
 }
 
+@media only screen and (max-width: 768px) {
+
 .navbar {
     width: 100%;
     
@@ -54,7 +56,7 @@ body {
     outline: none;
     height: 30px;
     color: #fff;
-    width: 60%;
+    width: 80%;
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 500;
@@ -63,7 +65,7 @@ body {
 }
 
 .search-box:focus {
-    width: 80%;
+    width: 90%;
     border-color: #1f80e0;
 }
 
@@ -355,8 +357,6 @@ body {
     opacity: 1;
 }
 
-
-@media only screen and (max-width: 768px) {
 
     .col-1 {
         display: flex;
