@@ -3,9 +3,9 @@ let sliders = [];
 let slideIndex = 0;
 
 const createSlide = () => {
-    if (slideIndex >= movies.length) {
+    if (slideIndex >= movies.length -1) {
         slideIndex = 0
-    }
+    }else{slideIndex++;}
 
     let slide = document.createElement('div');
     let imgElement = document.createElement('img');
